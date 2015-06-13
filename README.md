@@ -6,7 +6,6 @@
 使用方法
 
 > git clone https://github.com/licheedev/hexo-theme-lightgreen.git themes/lightgreen
-> 并修改
 
 DEMO [本人的博客](http://licheedev.github.io)
 
