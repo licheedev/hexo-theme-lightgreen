@@ -1,0 +1,23 @@
+<% if (site.posts.length){ %>
+<div class="widget social">
+  <h3 class="title"><%= __('connection') %></h3>
+  <ul class="my-socials">
+    <% for (var i in theme.social){
+	  if (theme.social[i]){ %>
+    <li>
+  	  <a href="<%- theme.social[i] %>" class="<%= i %>" target="_blank">
+  		  <i class="fa fa-<%= i %>"></i>
+  	  </a>
+    </li>
+    <% } 
+    } %>
+    <% if (theme.email) { %>
+    <li>
+   	  <a href="mailto:<%- theme.email %>" class="email" target="_blank" title="Email Me">
+  		 <i class="fa fa-envelope"></i>
+  	  </a>
+    </li>
+    <% } %>
+  </ul>
+</div>
+<% } %>

@@ -1,0 +1,57 @@
+menu:
+  首页: /
+  归档: /archives
+  关于: /about
+  订阅鄙站: /atom.xml
+
+widgets:
+- search
+- social
+- category
+- tagcloud
+- recent_posts
+
+excerpt_link: 查看全文
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+addthis:
+  enable: false
+  pubid:
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: true
+
+fancybox: true
+
+google_analytics: UA-64082407-1
+rss:
+
+comment_provider: facebook
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light
+
+# duoshuo
+duoshuo: licheedev
+
+# baidushare
+baidushare: true
+
+# baidu tongji
+baidutongji: c1a996e9a88b120ebf33af09f6dcc6ca
+
+# social
+social:
+  github: https://github.com/licheedev
+  weibo: http://weibo.com/licheedev
+
+# social email
+email: licheedev@foxmail.com
