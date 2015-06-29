@@ -5,6 +5,7 @@ menu:
   订阅鄙站: /atom.xml
 
 widgets:
+- toc
 - search
 - social
 - category
@@ -12,6 +13,9 @@ widgets:
 - recent_posts
 
 excerpt_link: 查看全文
+
+toc:
+  listnum: true
 
 twitter:
   username:
@@ -40,7 +44,8 @@ facebook:
   comment_colorscheme: light
 
 # duoshuo
-duoshuo: licheedev
+duoshuo:
+  short_name: licheedev
 
 # baidushare
 baidushare: true

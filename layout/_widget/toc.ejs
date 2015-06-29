@@ -1,0 +1,8 @@
+<% if (page.toc == true){ %>
+<div class="widget social">
+  <h3 class="title"><%= __('catalog') %></h3>
+  <div id="toc" class="toc-article">
+<%- toc(page.content, {list_number: theme.toc.listnum}) %>
+</div>
+</div>
+<% } %>
