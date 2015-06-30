@@ -28,21 +28,22 @@ DEMO [本人的博客](http://licheedev.github.io)
 google_analytics: UA-64082407-1
 rss:
 
-# duoshuo
-duoshuo: licheedev
+# 多说评论
+duoshuo:
+  short_name: licheedev
 
-# baidushare
+# 百度分享
 baidushare: true
 
-# baidu tongji
+# 百度统计
 baidutongji: c1a996e9a88b120ebf33af09f6dcc6ca
 
-# social
+# 联系方式
 social:
   github: https://github.com/licheedev
   weibo: http://weibo.com/licheedev
 
-# social email
+# 联系方式，email
 email: licheedev@foxmail.com
 ```
 

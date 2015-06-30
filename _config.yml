@@ -14,6 +14,7 @@ widgets:
 
 excerpt_link: 查看全文
 
+# 是否显示文章列表编号
 toc:
   listnum: true
 
@@ -36,6 +37,7 @@ google_analytics: UA-64082407-1
 rss:
 
 comment_provider: facebook
+
 # Facebook comment
 facebook:
   appid: 123456789012345
