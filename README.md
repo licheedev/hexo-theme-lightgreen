@@ -5,9 +5,11 @@
 
 使用方法
 
+> 在博客根目录运行下列命令
 ```
 git clone https://github.com/licheedev/hexo-theme-lightgreen.git themes/lightgreen
 ```
+然后打开博客根目录的`_config.yml`，找到`theme: 原主题名`并修改为`theme: lightgreen`即可
 
 DEMO [本人的博客](http://licheedev.github.io)
 
@@ -25,24 +27,25 @@ DEMO [本人的博客](http://licheedev.github.io)
 # 如下为私人配置，记得改掉
 
 ```
+# google analytics ID
 google_analytics: UA-64082407-1
-rss:
 
-# duoshuo
-duoshuo: licheedev
+# 多说评论 站点ID
+duoshuo:
+  short_name: licheedev
 
-# baidushare
+# 百度分享
 baidushare: true
 
-# baidu tongji
+# 百度统计
 baidutongji: c1a996e9a88b120ebf33af09f6dcc6ca
 
-# social
+# 联系方式
 social:
   github: https://github.com/licheedev
   weibo: http://weibo.com/licheedev
 
-# social email
+# 联系方式，email
 email: licheedev@foxmail.com
 ```
 
